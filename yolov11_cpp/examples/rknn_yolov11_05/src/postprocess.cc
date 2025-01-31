@@ -138,7 +138,7 @@ int GetResultRectyolov11::GetConvDetectionResult(int8_t **outputs, std::vector<i
             if (cls_temp > cls_vlaue)
             {
                 cls_vlaue = cls_temp;
-                cls_index = cl;
+                cls_index = cl - 64;
             }
         }
 
